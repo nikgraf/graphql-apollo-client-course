@@ -1,0 +1,128 @@
+/* Light 0.1.0 */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif, Helvetica, Arial;
+  color: #444;
+  line-height: 1.5em;
+}
+
+body > div {
+  margin: 1rem;
+}
+
+a,
+a:visited {
+  color: #4d9cff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3790ff;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #3790ff;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul {
+  margin-left: -10px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+label {
+  color: #888;
+  display: block;
+  margin-top: 1rem;
+}
+
+label span {
+  display: block;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.3rem;
+  position: relative;
+  top: -1px;
+}
+
+label input[type="checkbox"] + span {
+  display: inline;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: #4d9cff;
+  border: 1px solid #448ae2;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.85rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.05rem;
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #61a7ff;
+  border-color: #5797e6;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #55a1ff66;
+}
+
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+  background-color: #3790ff;
+  border-color: #3180e2;
+}
+
+button[disabled],
+input[type="button"][disabled],
+input[type="reset"][disabled],
+input[type="submit"][disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+
+button[disabled]:hover,
+input[type="button"][disabled]:hover,
+input[type="reset"][disabled]:hover,
+input[type="submit"][disabled]:hover {
+  background-color: #4d9cff;
+  border: 1px solid #448ae2;
+}
