@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2",
+    "nedb-promise": "^2.0.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index.js",
+    "start:slow": "NODE_ENV=development nodemon index.js 1400",
+    "seed": "NODE_ENV=development node models/seed.js"
+  }
+}
