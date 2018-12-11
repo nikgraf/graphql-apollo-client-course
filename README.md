@@ -1,6 +1,8 @@
 # graphql-apollo-client-course
 
-In order to run the client you need to seed the DB and run the server.
+These are the code examples to the free video course [GraphQL Data in React with Apollo Client](https://egghead.io/courses/graphql-data-in-react-with-apollo-client)
+
+In order to run the client you need to seed the DB and run the server beforehand.
 
 ```
 cd server
@@ -10,4 +12,4 @@ npm run start:slow
 
 You can find the server located here: https://github.com/nikgraf/graphql-apollo-client-course/tree/master/server
 
-The db is two JSON files stored in `/tmp/recipes.json` and `/tmp/ingedients.json`.
+The db stores two JSON files stored in `/tmp/recipes.json` and `/tmp/ingedients.json`.
