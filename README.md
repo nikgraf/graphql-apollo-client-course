@@ -6,8 +6,18 @@ In order to run the client you need to seed the DB and run the server beforehand
 
 ```
 cd server
+npm install
 npm run seed
 npm run start:slow
+```
+
+or when using yarn
+
+```
+cd server
+yarn
+yarn seed
+yarn start:slow
 ```
 
 You can find the server located here: https://github.com/nikgraf/graphql-apollo-client-course/tree/master/server
