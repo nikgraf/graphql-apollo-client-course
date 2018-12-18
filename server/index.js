@@ -36,7 +36,12 @@ const typeDefs = gql`
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  playground: {
+    settings: {
+      'editor.cursorShape': 'line'
+    }
+  }
 });
 
 server.listen().then(({ url }) => {
