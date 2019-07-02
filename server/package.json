@@ -15,5 +15,8 @@
     "start": "NODE_ENV=development nodemon index.js",
     "start:slow": "NODE_ENV=development nodemon index.js 1400",
     "seed": "NODE_ENV=development node models/seed.js"
+  },
+  "nodemonConfig": {
+    "ignore": "recipes.json"
   }
 }

@@ -4,7 +4,7 @@
 const Datastore = require("nedb-promise");
 
 const recipeDb = new Datastore({
-  filename: "/tmp/recipes.json",
+  filename: "./recipes.json",
   autoload: true
 });
 
