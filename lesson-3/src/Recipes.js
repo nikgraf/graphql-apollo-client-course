@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
-import { execute } from "../node_modules/apollo-link";
 
 const recipesQuery = gql`
   query recipes($vegetarian: Boolean!) {
